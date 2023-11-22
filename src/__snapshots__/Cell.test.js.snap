@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cell /> rendering matches snapshot when lit 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="Cell Cell-lit"
+        role="button"
+      />
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`<Cell /> rendering matches snapshot when not lit 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td
+        class="Cell "
+        role="button"
+      />
+    </tr>
+  </tbody>
+</table>
+`;

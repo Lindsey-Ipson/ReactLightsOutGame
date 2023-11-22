@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Board /> render inital board (both unwinning and winning) matches snapshot for inital board with all lights on 1`] = `
+<DocumentFragment>
+  <table
+    class="Board"
+  >
+    <tbody>
+      <tr>
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+      </tr>
+      <tr>
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+      </tr>
+      <tr>
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+      </tr>
+      <tr>
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+        <td
+          class="Cell Cell-lit"
+          role="button"
+        />
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`<Board /> render inital board (both unwinning and winning) shows winning message when board is rendered with all lights already out 1`] = `
+<DocumentFragment>
+  <div>
+    You Won!
+  </div>
+</DocumentFragment>
+`;
